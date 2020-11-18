@@ -1,0 +1,187 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<script type="text/javascript">
+    function ShowPopup(title, body) {
+        $("#MyPopup .modal-title").html(title);
+        $("#MyPopup .modal-body").html(body);
+        $("#MyPopup").modal("show");
+    }
+</script>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+var formPopup = new Form();
+formPopup.Show(this);
+$('#myModal').modal("show")
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var nameDivInput = '<input type="text" class="form-control" id="name"/>';
+    document.getElementById("nameDiv").append(nameDivInput);
+</script>
+
+
+<div class="Whats-Are-Mission-Section">
+    <div class="Whats-Are-Mission">
+        <h3>A small text description of what we do</h3>
+        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    </div>
+    <div id="Whats-Are-Mission-Video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oPbRT9nDF3A" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+    </div>
+</div>
+
+
+
+<div class="How-It-Helps-Section">
+    <div id="How-It-Helps-Video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/il6qzbDUYaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="How-It-Helps">
+        <h3>How Can it help</h3>
+    </div>
+</div>
+
+
+<div class="What-you-get-for-signing-up-Section">
+    <div class="What-you-get-for-signing-up">
+        <img src="pic_trulli.jpg" alt="book">
+        <h3>pet owners bible</h3>
+        <div class="Pet-Owners-Bible-Description">
+            <h3>pet owners bible description</h3>
+            <h3>pet owners bible description</h3>
+        </div>
+
+        <img src="pic_trulli.jpg" alt="picture of an expert">
+        <h3>access to experts</h3>
+        <div class="Access-To-Expert-Description">
+            <h3>expert description</h3>
+            <h3>expert description</h3>
+        </div>
+
+
+
+    </div>
+</div>
+
+<div class="Meet-the-experts-Section">
+    <div class="Meet-the-experts">
+        <h3>Meet-the-experts</h3>
+        <img src="pic_trulli.jpg" alt="picture of an expert">
+        <h3>John Smith</h3>
+        <div class="Expert-Description">
+            <h3>expert description</h3>
+            <h3>links to there social media</h3>
+        </div>
+
+        <img src="pic_trulli.jpg" alt="picture of an expert">
+        <h3>John Smith</h3>
+        <div class="Expert-Description">
+            <h3>expert description</h3>
+            <h3>links to there social media</h3>
+        </div>
+
+        <img src="pic_trulli.jpg" alt="picture of an expert">
+        <h3>John Smith</h3>
+        <div class="Expert-Description">
+            <h3>expert description</h3>
+            <h3>links to there social media</h3>
+        </div>
+    </div>
+</div>
+
+<div class="Our-Socal-media-section">
+    <div class="Our-Socal-media">
+        <img src="pic_trulli.jpg" alt="picture and link to facebook">
+        <img src="pic_trulli.jpg" alt="picture and link to twitter">
+        <img src="pic_trulli.jpg" alt="picture and link to instagram">
+        <img src="pic_trulli.jpg" alt="picture and link to snapchat">
+    </div>
+</div>
+
+
+<div id="blockOfStuff" type="text/html">
+    <div class="Email-Popup">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<div class="Email-Popup">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+@section Scripts
+{
+    <script>
+
+        window.addEventListener('beforeunload', function (e) {
+            event.returnValue = $("#myModal").modal("show");
+            delete e['returnValue'];
+        });
+        window.onbeforeunload = function (event) {
+            event.returnValue = $("#myModal").modal("show");
+        };
+
+
+    </script>
+
+}
